@@ -1,4 +1,4 @@
-{{ if ne .Site.Params.show_menu false }}
+{{ if ne .Site.Params.show_menu true }}
   <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
     {{ $currentNode := . }}
     {{ range .Site.Menus.main }}

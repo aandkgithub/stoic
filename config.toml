@@ -1,0 +1,46 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "STOIC"
+
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+canonifyURLs = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  
+  [params]
+  subtitle = "Hugo is Absurdly Fast!"
+  author = "John Doe"
+
+# Current theme
+theme = "after-dark"
+
+# Main menu
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 0
+
+[[menu.main]]
+    name = "About"
+    url  = "about"
+    weight = 9
+    
+[[menu.main]]
+    name = "Contact"
+    url  = "contact"
+    weight = 10
+
+[[menu.main]]
+    name = "Posts"
+    url  = "post/"
+    weight = 1
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+# disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]

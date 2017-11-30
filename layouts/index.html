@@ -1,0 +1,30 @@
+{{ define "title" -}}
+  {{ .Site.Title }}
+{{- end }}
+{{ define "header" }}
+  {{ partial "menu.html" . }}
+{{ end }}
+{{ define "main" }}
+  <header>
+    <h1>{{ .Title }}</h1>
+    
+    rsdhfjh jhgf hjg g
+    j hfgmjh v vmv kjhv kjnb , 
+    mnbv mbnv m vmn vmbn v
+    nmbv mn 
+     mnbv mj hmj vmnb vmv mnb vhgjcv bmxgjhgcvg
+    jkhv jghvh jgv hgf jfl gkf kyug hvyuf756r uyfg
+     y67r 5 fghv iytf57f kufrd4 df87 fhg v
+     ytd u6f ghv fi75f 
+    jytf 7iv
+    
+    
+  </header>
+  {{ range (.Paginate (where .Data.Pages "Type" "post")).Pages }}
+    {{ partial "page-summary.html" . }}
+  {{ end }}
+{{ end }}
+{{ define "footer" }}
+  {{ partial "pagination.html" . }}
+  {{ partial "powered-by.html" . }}
+{{ end }}

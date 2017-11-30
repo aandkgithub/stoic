@@ -2,7 +2,6 @@
 date = "2015-09-25T11:49:03-07:00"
 draft = false
 title = "my second post"
-tag = testing
 +++
 
 *TIP: Create a few posts like this to get some content in place and see the formatting of multiple articles in lists.
